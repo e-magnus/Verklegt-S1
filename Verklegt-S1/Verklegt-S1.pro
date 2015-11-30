@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        computerscientist.cpp
+        computerscientist.cpp \
+    search.cpp \
+    sorting.cpp
 
-HEADERS  += computerscientist.h
+HEADERS  += computerscientist.h \
+    search.h \
+    sorting.h
 
 FORMS    += computerscientist.ui

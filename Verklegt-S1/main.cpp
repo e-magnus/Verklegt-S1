@@ -1,11 +1,15 @@
 #include "computerscientist.h"
+#include "search.h"
+#include "sorting.h"
+
 #include <QApplication>
+#include <iostream>
 
-int main(int argc, char *argv[])
+using namespace std;
+
+int main()
 {
-    QApplication a(argc, argv);
-    ComputerScientist w;
-    w.show();
-
-    return a.exec();
+    cout << "Hello world!" << endl;
+    return 0;
 }
+
