@@ -1,8 +1,11 @@
 #include <QCoreApplication>
 #include <iostream>
+#include <fstream>
+#include <cstdlib>
 #include "computerscientist.h"
 using namespace std;
 
+void readData();
 
 int main(int argc, char *argv[])
 {
@@ -10,6 +13,7 @@ int main(int argc, char *argv[])
 
     int selection;
 
+    void readData();
 
     cout << "######### THE COMPUTER SCIENTISTS DATABASE #########" << endl;
     cout << endl;
@@ -25,3 +29,18 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 
+
+void readData()
+{
+    ifstream in_stream;
+    // Open the file
+    in_stream.open("Data");
+    if (in_stream.fail())
+    {
+        cout << "Input file opening failed." << endl;
+        exit(-1);
+    }
+
+    in_stream.close();
+
+}

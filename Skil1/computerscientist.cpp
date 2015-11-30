@@ -12,4 +12,3 @@ ComputerScientist::ComputerScientist()
     dead_month = 0;
     dead_day = 0;
 }
-

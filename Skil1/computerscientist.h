@@ -1,6 +1,8 @@
 #ifndef COMPUTERSCIENTIST_H
 #define COMPUTERSCIENTIST_H
 #include <iostream>
+#include <fstream>
+#include <cstdlib>
 using namespace std;
 
 class ComputerScientist{
