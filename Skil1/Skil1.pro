@@ -8,8 +8,12 @@ CONFIG -= app_bundle
 TEMPLATE = app
 
 SOURCES += main.cpp \
-    computerscientist.cpp
+    computerscientist.cpp \
+    search.cpp \
+    sorting.cpp
 
 HEADERS += \
-    computerscientist.h
+    computerscientist.h \
+    search.h \
+    sorting.h
 

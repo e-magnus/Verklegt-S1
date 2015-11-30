@@ -3,6 +3,8 @@
 #include <fstream>
 #include <cstdlib>
 #include "computerscientist.h"
+#include "sorting.h"
+#include "search.h"
 using namespace std;
 
 void readData();
