@@ -15,7 +15,7 @@ private:
     int id;
     string name;
     string sex;
-    string bio;
+    string info;
     int born_year;
     int born_month;
     int born_day;

@@ -5,7 +5,7 @@ ComputerScientist::ComputerScientist()
     id = 0;
     name = ' ';
     sex = ' ';
-    bio = ' ';
+    info = ' ';
     born_year = 0;
     born_month = 0;
     born_day = 0;
@@ -18,7 +18,7 @@ ComputerScientist::ComputerScientist(string na, string se,int bd, int bm, int by
 {
     name = na;
     sex = se;
-    bio = bio;
+    info = bio;
     born_year = by;
     born_month = bm;
     born_day = bd;
