@@ -1,5 +1,6 @@
 #include <QCoreApplication>
 #include <iostream>
+#include "computerscientist.h"
 using namespace std;
 
 
