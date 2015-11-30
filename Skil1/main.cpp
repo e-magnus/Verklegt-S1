@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
     void readData();
 
-    cout << "######### THE COMPUTER SCIENTISTS DATABASE #########" << endl;
+    cout << "########## THE COMPUTER SCIENTISTS DATABASE ##########" << endl;
     cout << endl;
     cout << "Please press 1 - 3 to select or Q to quit: " << endl;
     cout << endl;
