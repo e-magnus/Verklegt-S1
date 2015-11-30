@@ -7,15 +7,25 @@
 #include "search.h"
 using namespace std;
 
-void readData();
+void startScreen();             // Runs starting ui.
+void readData();                // Reads data from file to Compterscientist class.
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    int selection;
 
-    void readData();
+    startScreen();
+
+
+
+    return a.exec();
+}
+
+
+void startScreen()
+{
+    char selection;
 
     cout << "########## THE COMPUTER SCIENTISTS DATABASE ##########" << endl;
     cout << endl;
@@ -27,8 +37,6 @@ int main(int argc, char *argv[])
     cout << endl;
     cout << "Selection: ";
     cin >> selection;
-
-    return a.exec();
 }
 
 
