@@ -7,17 +7,30 @@
 #include "search.h"
 using namespace std;
 
-void readData();
+void startScreen();     // Display startup screen.
+void sortScreen();      // Let you choos how you want to display the list of scientist in database.
+void addScientist();    // Add new scientist to the database.
+void searchScreen();    // Let you search the database.
+void readData();        // Reads data from file to Compterscientist class.
 
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    int selection;
 
-    void readData();
+    startScreen();
 
-    cout << "######### THE COMPUTER SCIENTISTS DATABASE #########" << endl;
+
+
+    return a.exec();
+}
+
+
+void startScreen()
+{
+    char selection;
+
+    cout << "########## THE COMPUTER SCIENTISTS DATABASE ##########" << endl;
     cout << endl;
     cout << "Please press 1 - 3 to select or Q to quit: " << endl;
     cout << endl;
@@ -27,10 +40,35 @@ int main(int argc, char *argv[])
     cout << endl;
     cout << "Selection: ";
     cin >> selection;
-
-    return a.exec();
 }
 
+void sortScreen()
+{
+    char selection;
+
+    cout << "########## THE COMPUTER SCIENTISTS DATABASE ##########" << endl;
+    cout << endl;
+    cout << "How do you want to display the data?: " << endl;
+    cout << endl;
+    cout << "1: By first name (A-Z)" << endl;
+    cout << "2: By last name (A-Z)" << endl;
+    cout << "3: By age (youngest to oldest)" << endl;
+    cout << "4: By sex (male or feameale)" << endl;
+
+    cout << endl;
+    cout << "Selection: ";
+    cin >> selection;
+}
+
+void addScientist()
+{
+
+}
+
+void searchScreen()
+{
+
+}
 
 void readData()
 {

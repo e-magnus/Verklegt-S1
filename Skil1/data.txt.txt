@@ -6,3 +6,96 @@ F
 27
 11
 1852
+Augusta Ada King, Countess of Lovelace was a British mathematician and writer, chiefly known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine.
+Alan Turing
+M
+23
+06
+1912
+07
+06
+1954
+Alan Mathison Turing, OBE, FRS was a British pioneering computer scientist, mathematician, logician, cryptanalyst and theoretical biologist
+Donald Knuth
+M
+10
+01
+1938
+0
+0
+0
+Donald Ervin Knuth is an American computer scientist, mathematician, and professor emeritus at Stanford University. He is the author of the multi-volume work The Art of Computer Programming.
+Grace Hopper
+M
+09
+12
+1906
+01
+01
+1992
+Grace Brewster Murray Hopper, née Grace Brewster Murray, was an American computer scientist and United States Navy Rear Admiral.
+Edsger W. Dijkstra
+M
+11
+05
+1930
+06
+08
+2002
+Edsger Wybe Dijkstra was a Dutch computer scientist and mathematical scientist. A theoretical physicist by training, he worked as a programmer at the Mathematisch Centrum from 1952 to 1962.
+Larry Page
+M
+26
+03
+1973
+0
+0
+0
+Lawrence "Larry" Page is an American computer scientist and internet entrepreneur who co-founded Google Inc. with Sergey Brin, and is the CEO of Google's parent company, Alphabet Inc
+John von Neumann
+M
+28
+12
+1903
+08
+02
+1957
+John von Neumann was a Hungarian-American pure and applied mathematician, physicist, inventor, and polymath. He made major contributions to a number of fields, including mathematics, physics, economics, computing, and statistics.
+Anita Borg
+F
+17
+01
+1949
+06
+04
+2003
+Anita Borg was an American computer scientist. She founded the Institute for Women and Technology and the Grace Hopper Celebration of Women in Computing. She was born Anita Borg Naffz in Chicago, Illinois.
+Tim Berners-Lee
+M
+08
+06
+1955
+0
+0
+0
+Sir Timothy John Berners-Lee OM KBE FRS FREng FRSA FBCS, also known as TimBL, is an English computer scientist, best known as the inventor of the World Wide Web.
+John McCarthy
+M
+04
+09
+1927
+24
+10
+2011
+John McCarthy was an American computer scientist and cognitive scientist. McCarthy was one of the founders of the discipline of artificial intelligence.
+Hal Abelson
+M
+26
+04
+1947
+0
+0
+0
+Harold "Hal" Abelson is a Professor of Electrical Engineering and Computer Science at MIT, a fellow of the IEEE, and a founding director of both Creative Commons and the Free Software Foundation.
+
+
