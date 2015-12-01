@@ -29,6 +29,7 @@ int main(int argc, char *argv[])
 void startScreen()
 {
     char selection;
+    bool flag = true;
 
     cout << "########## THE COMPUTER SCIENTISTS DATABASE ##########" << endl;
     cout << endl;
@@ -40,6 +41,32 @@ void startScreen()
     cout << endl;
     cout << "Selection: ";
     cin >> selection;
+    cout << endl;
+
+    while (flag)
+    {
+    switch (selection) {
+    case '1': sortScreen();
+        flag = false;
+        break;
+    case '2': cout <<  "Pikachu i choose you 2";
+        flag = false;
+        break;
+    case '3': cout << "Pikachu i choose you 1";
+        flag = false;
+        break;
+    case 'q': return exit (-1);
+        flag = false;
+        break;
+    case 'Q': return exit (-1);
+        flag = false;
+        break;
+    default: cout << "Invalid choice" << endl << endl;
+        startScreen();
+        break;
+    }
+
+}
 }
 
 void sortScreen()
@@ -58,6 +85,8 @@ void sortScreen()
     cout << endl;
     cout << "Selection: ";
     cin >> selection;
+
+
 }
 
 void addScientist()
