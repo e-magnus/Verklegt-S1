@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstdlib>
+#include <string>
 #include "computerscientist.h"
 #include "sorting.h"
 #include "search.h"
@@ -52,7 +53,7 @@ void startScreen()
         case '2': cout <<  "Search database for computer scientist.";
             flag = false;
             break;
-        case '3': cout << "Add new computer scientists to database.";
+        case '3': addScientist();
             flag = false;
             break;
         case 'q': return exit (-1);
@@ -98,7 +99,7 @@ void sortScreen()
         case '3': cout << "Displaying list by age (youngest to oldest)";
             flag = false;
             break;
-        case '4': cout << "Displaying list by sex (male or feameale)";
+        case '4': cout << "Displaying list by gender (male or feameale)";
             flag = false;
             break;
         case 'q': return exit (-1);
@@ -114,6 +115,51 @@ void sortScreen()
 
 void addScientist()
 {
+    ComputerScientist temp;
+    string name;
+    char sex;
+    char info;
+    int born_year;
+    int born_month;
+    int born_day;
+    int dead_year;
+    int dead_month;
+    int dead_day;
+
+    ofstream outfile;
+
+    outfile.open("test.txt", std::ios_base::app);
+
+    if (outfile.fail())
+    {
+        cout << "File opening failed." << endl;
+        exit(-1);
+    }
+    cout << "Enter the name of the new scientist. " << endl;
+    cout << "Name: ";
+    cin >> name;
+
+    cout << "Press 'M' for male and 'F' for female" << endl;
+    cout << "Gender: ";
+    cin >> sex;
+
+    cout << "Enter birthday on the format DD MM YYYY: " << endl;
+    cin >> born_day >> born_month >> born_year;
+
+    //cout << "Is the person still allive? (y/n) ";
+
+    cout << "Enter death day on the format DD MM YYYY: " << endl;
+    cin >> dead_day >> dead_month >> dead_year;
+
+    cout << "Pleas write short summary about the person. " << endl;
+    cin >> info;
+
+    cout << "Name: " << name << " (" << sex << ")" << endl;
+    cout << "Born: " << born_day << "." << born_month << "." << born_year << endl;
+    cout << "Died: " << dead_day << "." << dead_month << "." << dead_year << endl;
+    cout << info << endl;
+
+    outfile.close();
 
 }
 
