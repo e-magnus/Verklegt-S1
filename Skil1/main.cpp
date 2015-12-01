@@ -46,20 +46,18 @@ void startScreen()
     while (flag)
     {
         switch (selection) {
-        case '1': sortScreen();
+        case '1': cout <<  "See list of computer scientists in the database.";
             flag = false;
             break;
-        case '2': cout <<  "Pikachu i choose you 2";
+        case '2': cout <<  "Search database for computer scientist.";
             flag = false;
             break;
-        case '3': cout << "Pikachu i choose you 1";
+        case '3': cout << "Add new computer scientists to database.";
             flag = false;
             break;
         case 'q': return exit (-1);
-            flag = false;
             break;
         case 'Q': return exit (-1);
-            flag = false;
             break;
         default: cout << "Invalid choice" << endl << endl;
             startScreen();
@@ -104,13 +102,11 @@ void sortScreen()
             flag = false;
             break;
         case 'q': return exit (-1);
-            flag = false;
             break;
         case 'Q': return exit (-1);
-            flag = false;
             break;
         default: cout << "Invalid choice" << endl << endl;
-            startScreen();
+            sortScreen();
             break;
         }
     }
