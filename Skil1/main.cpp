@@ -51,13 +51,14 @@ void startScreen()
             flag = false;
             break;
         case '2': cout <<  "Search database for computer scientist.";
+            searchScreen();
             flag = false;
             break;
-        case '3': addScientist();
+        case '3': cout << "Add another computer scientist" << endl << endl;
+            addScientist();
             flag = false;
             break;
-        case 'q': return exit (-1);
-            break;
+        case 'q':
         case 'Q': return exit (-1);
             break;
         default: cout << "Invalid choice" << endl << endl;
@@ -102,8 +103,7 @@ void sortScreen()
         case '4': cout << "Displaying list by gender (male or feameale)";
             flag = false;
             break;
-        case 'q': return exit (-1);
-            break;
+        case 'q':
         case 'Q': return exit (-1);
             break;
         default: cout << "Invalid choice" << endl << endl;
@@ -149,15 +149,11 @@ void addScientist()
         switch (sex)
         {
         case 'M':
-            sexFlag = false;
-            break;
         case 'm':
             sexFlag = false;
             sex = 'M';
             break;
         case 'F':
-            sexFlag = false;
-            break;
         case 'f':
             sexFlag = false;
             sex = 'F';
