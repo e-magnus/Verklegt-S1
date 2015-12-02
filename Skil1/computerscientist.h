@@ -11,7 +11,7 @@ class ComputerScientist{
 public:
     ComputerScientist();
     ComputerScientist(string na, string se,int bd, int bm, int by, int dd, int dm, int dy, string bio);
-private:
+protected:
     int id;
     string name;
     string sex;
